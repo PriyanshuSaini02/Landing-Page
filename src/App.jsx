@@ -16,6 +16,7 @@ import Container11 from "./Components/Container11";
 import Container12 from "./Components/Container12";
 import Container13 from "./Components/Container13";
 import Footer from './Components/Footer'
+import Whatsapp from './Components/Whatsapp';
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -38,20 +39,21 @@ function App() {
     <>
       <Header />
       <main className="pt-16">
+        <Whatsapp />
         <Container1 />
-        <Container2/>
-        <Container3/>
-        <Container4/>
-        <Container5/>
-        <Container6/>
-        <Container7/>
-        <Container8/>
-        <Container9/>
-        <Container10/>
-        <Container11/>
-        <Container12/>
-        <Container13/>
-        <Footer/>
+        <Container2 />
+        <Container3 />
+        <Container4 />
+        <Container5 />
+        <Container6 />
+        <Container7 />
+        <Container8 />
+        <Container9 />
+        <Container10 />
+        <Container11 />
+        <Container12 />
+        <Container13 />
+        <Footer />
       </main>
     </>
   );
