@@ -4,17 +4,13 @@ import Section from "./Section";
 const Container6 = () => {
   return (
     <div className="w-full bg-[#134872] py-12 sm:py-16 lg:py-24 overflow-hidden">
-      <Section className="px-4 sm:px-6 lg:px-12 relative lg:ml-10">
+      <Section className="px-4 sm:px-6 lg:px-10 relative">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 sm:gap-12 lg:gap-16">
           {/* LEFT CONTENT */}
           <div className="text-white max-w-full lg:max-w-130">
             {/* Logo */}
             <div className="mb-6 sm:mb-8">
-              <img
-                src="tennispal_logo.png"
-                alt="TennisPAL"
-                className="h-10 sm:h-12 lg:h-14"
-              />
+              <img src="tennispal_logo.png" alt="TennisPAL" className="h-10 sm:h-12 lg:h-14" />
             </div>
 
             {/* Description */}
@@ -30,16 +26,8 @@ const Container6 = () => {
 
             {/* Store badges */}
             <div className="flex items-center gap-4 sm:gap-6 mb-6 sm:mb-10">
-              <img
-                src="app-store.png"
-                alt="App Store"
-                className="h-8 sm:h-10"
-              />
-              <img
-                src="play-store-1.png"
-                alt="Play Store"
-                className="h-8 sm:h-10"
-              />
+              <img src="app-store.png" alt="App Store" className="h-8 sm:h-10" />
+              <img src="play-store-1.png" alt="Play Store" className="h-8 sm:h-10" />
             </div>
 
             {/* Stats */}

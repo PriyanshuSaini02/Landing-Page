@@ -22,29 +22,35 @@ const reasons = [
 const Container9 = () => {
   return (
     <div className="w-full py-12 sm:py-16 lg:py-28 bg-[#F2F2F2]">
-      <Section className="px-4 sm:px-6 lg:px-12 lg:ml-10">
+      <Section className="px-4 sm:px-6 lg:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-20 items-center">
+          {/* LEFT IMAGE */}
           <img
             src="Top_3.webp"
             alt="Industry Infrastructure"
             className="w-full max-w-full sm:max-w-140 h-64 sm:h-80 lg:h-96 object-cover rounded-xl shadow-lg shadow-black order-2 lg:order-1"
           />
 
+          {/* RIGHT CONTENT */}
           <div className="max-w-full lg:max-w-140 order-1 lg:order-2">
+            {/* Label */}
             <div className="flex items-center gap-2 mb-3 sm:mb-4">
               <span className="text-[#29C553] text-xs sm:text-sm font-semibold uppercase tracking-wide">
                 Our Industry
               </span>
             </div>
 
+            {/* Heading */}
             <h2 className="text-[30px] sm:text-[34px] lg:text-[38px] leading-tight font-bold text-[#134872] mb-6 sm:mb-8 lg:mb-10">
               Here are 3 Reasons to <br className="hidden sm:block" />
               Patronize <span className="text-[#29C553]">SnabbTech</span>
             </h2>
 
+            {/* Reasons */}
             <div className="space-y-6 sm:space-y-8">
               {reasons.map((item, index) => (
                 <div key={index} className="flex gap-4 sm:gap-5 items-start">
+                  {/* Icon */}
                   <div className="shrink-0">
                     <img
                       src={item.icon}
@@ -53,6 +59,7 @@ const Container9 = () => {
                     />
                   </div>
 
+                  {/* Text */}
                   <div>
                     <h3 className="text-[#134872] text-[15px] sm:text-base font-semibold mb-1">
                       {item.title}

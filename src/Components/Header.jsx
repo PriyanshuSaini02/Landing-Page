@@ -6,7 +6,8 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 w-full bg-white shadow-[0_2px_6px_rgba(0,0,0,0.08)] z-50">
-      <Section className="max-w-350 mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between font-sans lg:ml-10">
+      <Section className="max-w-350 mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between font-sans">
+        {/* LOGO */}
         <div className="flex items-center">
           <img
             src="Snabbtech logo.png"
@@ -15,6 +16,7 @@ const Header = () => {
           />
         </div>
 
+        {/* MOBILE MENU BUTTON */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           className="lg:hidden text-[#134872] p-2"
@@ -44,6 +46,7 @@ const Header = () => {
           </svg>
         </button>
 
+        {/* NAVIGATION - Desktop */}
         <nav className="hidden lg:flex items-center gap-6 xl:gap-10">
           {[
             "Home",
@@ -69,11 +72,13 @@ const Header = () => {
           ))}
         </nav>
 
+        {/* CTA BUTTON - Desktop */}
         <button className="hidden lg:block h-10 px-4 xl:px-6 bg-[#7cb342] hover:bg-[#689f38] text-white text-[13px] xl:text-[14px] font-semibold rounded-sm whitespace-nowrap">
           Get In Touch
         </button>
       </Section>
 
+      {/* MOBILE MENU */}
       {mobileMenuOpen && (
         <div className="lg:hidden bg-white border-t">
           <nav className="flex flex-col px-4 py-4 space-y-3">

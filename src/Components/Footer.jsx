@@ -3,8 +3,11 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="w-full bg-white border-t">
+      {/* INNER WRAPPER */}
       <div className="max-w-350 mx-auto px-4 sm:px-6 lg:px-12 py-12 sm:py-16 lg:py-20">
+        {/* TOP GRID */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 lg:gap-16">
+          {/* BRAND COLUMN */}
           <div className="col-span-1 sm:col-span-2 lg:col-span-1">
             <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 rounded-full bg-[#0b4a7a] flex items-center justify-center mb-4 sm:mb-6">
               <img src="footer_logo.png" alt="" />
@@ -15,6 +18,7 @@ const Footer = () => {
               Surrey, Canada | Sharjah, UAE
             </p>
 
+            {/* SOCIAL ICONS */}
             <div className="flex gap-3 sm:gap-4">
               {[
                 { src: "facebook.png", alt: "Facebook" },
@@ -39,6 +43,7 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* SERVICES */}
           <div>
             <h4 className="text-base sm:text-lg font-semibold text-[#134872] mb-4 sm:mb-6 inline-block border-b-2 border-[#29C553] pb-1">
               Services
@@ -50,6 +55,7 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* INDUSTRIES */}
           <div>
             <h4 className="text-base sm:text-lg font-semibold text-[#134872] mb-4 sm:mb-6 inline-block border-b-2 border-[#29C553] pb-1">
               Industries
@@ -63,6 +69,7 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* RESOURCES */}
           <div>
             <h4 className="text-base sm:text-lg font-semibold text-[#134872] mb-4 sm:mb-6 inline-block border-b-2 border-[#29C553] pb-1">
               Resources
@@ -79,6 +86,7 @@ const Footer = () => {
               <li>SnabbHealth</li>
             </ul>
 
+            {/* BADGES */}
             <div className="flex gap-4 sm:gap-6 mt-6 sm:mt-10">
               <div className="w-16 h-20 sm:w-20 sm:h-28 border rounded-md flex items-center justify-center text-xs text-center">
                 <img src="GoodFirms.svg" alt="" />
@@ -90,6 +98,7 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* BOTTOM BAR */}
         <div className="border-t mt-10 sm:mt-12 lg:mt-16 pt-4 sm:pt-6 text-center text-xs sm:text-sm text-[#1f2937]">
           © 2025 SnabbTech | All Rights Reserved
         </div>

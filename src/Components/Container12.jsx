@@ -4,7 +4,8 @@ import Section from "./Section";
 const Component12 = () => {
   return (
     <div className="w-full bg-white py-12 sm:py-16 lg:py-28 relative overflow-hidden">
-      <Section className="px-4 sm:px-6 lg:px-12 flex flex-col lg:flex-row items-start gap-10 sm:gap-12 lg:gap-20 lg:ml-10">
+      <Section className="px-4 sm:px-6 lg:px-10 flex flex-col lg:flex-row items-start gap-10 sm:gap-12 lg:gap-20">
+        {/* LEFT CONTENT */}
         <div className="max-w-full lg:max-w-105">
           <h2 className="text-[32px] sm:text-[38px] lg:text-[42px] leading-tight font-bold text-[#134872] mb-4 sm:mb-6">
             What our <span className="text-[#29C553]">clients</span>
@@ -18,13 +19,12 @@ const Component12 = () => {
           </p>
         </div>
 
+        {/* RIGHT TESTIMONIALS */}
         <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 w-full lg:w-auto">
-          
+          {/* CARD 1 */}
           <div className="bg-white shadow-[0_12px_30px_rgba(0,0,0,0.08)] rounded-xl p-6 sm:p-8 lg:p-10 w-full sm:w-90 relative">
-
-            <div className="flex gap-1 text-[#fbbf24] mb-4 sm:mb-6">
-              ★ ★ ★ ★ ★
-            </div>
+            {/* STARS */}
+            <div className="flex gap-1 text-[#fbbf24] mb-4 sm:mb-6">★ ★ ★ ★ ★</div>
 
             <p className="text-[#6b7280] text-sm sm:text-base leading-6 sm:leading-7 mb-6 sm:mb-10">
               He skillfully transformed our idea into reality, demonstrating
@@ -38,15 +38,16 @@ const Component12 = () => {
               <span className="text-xs sm:text-sm text-[#6b7280]">CEO</span>
             </div>
 
+            {/* QUOTE ICON */}
             <div className="absolute bottom-4 sm:bottom-6 right-4 sm:right-6 text-[40px] sm:text-[48px] text-[#c7dbff] leading-none">
               "
             </div>
           </div>
 
+          {/* CARD 2 */}
           <div className="bg-white shadow-[0_12px_30px_rgba(0,0,0,0.08)] rounded-xl p-6 sm:p-8 lg:p-10 w-full sm:w-90 relative">
-            <div className="flex gap-1 text-[#fbbf24] mb-4 sm:mb-6">
-              ★ ★ ★ ★ ★
-            </div>
+            {/* STARS */}
+            <div className="flex gap-1 text-[#fbbf24] mb-4 sm:mb-6">★ ★ ★ ★ ★</div>
 
             <p className="text-[#6b7280] text-sm sm:text-base leading-6 sm:leading-7 mb-6 sm:mb-10">
               We're highly satisfied with SnabbTech; they actively listen to
@@ -59,6 +60,7 @@ const Component12 = () => {
               <span className="text-xs sm:text-sm text-[#6b7280]">CEO</span>
             </div>
 
+            {/* QUOTE ICON */}
             <div className="absolute bottom-4 sm:bottom-6 right-4 sm:right-6 text-[40px] sm:text-[48px] text-[#c7dbff] leading-none">
               "
             </div>
@@ -66,6 +68,7 @@ const Component12 = () => {
         </div>
       </Section>
 
+      {/* Decorative dots */}
       <span className="absolute top-16 sm:top-24 left-10 sm:left-20 w-2 h-2 bg-[#ff6b6b] rounded-sm"></span>
       <span className="absolute bottom-16 sm:bottom-24 right-16 sm:right-32 w-2 h-2 bg-[#ff6b6b] rounded-sm"></span>
     </div>

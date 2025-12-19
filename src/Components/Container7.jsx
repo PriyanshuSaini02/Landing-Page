@@ -5,30 +5,30 @@ const data = [
   {
     title: "Lack of In-House Tech Expertise",
     desc: "Businesses struggle to build and maintain a custom tech team.",
-    icon: "/images/TechExpertise.jpg",
+    icon: "handcraft.png",
   },
   {
     title: "High Cost & Complexity",
     desc: "Hiring, training, and managing developers takes time and resources.",
-    icon: "/images/Cost.jpg",
+    icon: "hierarchical-structure.png",
   },
   {
     title: "Trial & Error Risks",
     desc: "Developing tech solutions without experience leads to costly mistakes.",
-    icon: "/images/Risk.jpg",
+    icon: "feature.png",
   },
   {
     title: "Customize with flexible enjoyment.",
     desc: "Craft an application designed to the unique requirements of your business.",
-    icon: "/images/Customization.jpg",
+    icon: "hand.png",
   },
 ];
 
 const Container7 = () => {
   return (
     <div className="w-full bg-white py-12 sm:py-16 lg:py-28">
-      <Section className="px-4 sm:px-6 lg:px-12 lg:ml-10">
-
+      <Section className="px-4 sm:px-6 lg:px-10">
+        {/* HEADER */}
         <div className="text-center mb-10 sm:mb-12 lg:mb-16">
           <p className="text-[#29C553] text-xs sm:text-sm font-semibold tracking-wide mb-2 sm:mb-3">
             ♥ WHY CHOOSE US?
@@ -43,6 +43,7 @@ const Container7 = () => {
           </p>
         </div>
 
+        {/* CARDS GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
           {data.map((item, index) => (
             <div
@@ -59,7 +60,7 @@ const Container7 = () => {
                 relative
               "
             >
-
+              {/* Icon */}
               <div className="shrink-0">
                 <img
                   src={item.icon}
@@ -68,6 +69,7 @@ const Container7 = () => {
                 />
               </div>
 
+              {/* Content */}
               <div className="flex flex-col">
                 <h3 className="text-base sm:text-lg font-bold text-[#134872] mb-2">
                   {item.title}

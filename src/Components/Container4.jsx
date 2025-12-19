@@ -27,7 +27,7 @@ const services = [
 const Component4 = () => {
   return (
     <div className="w-full bg-white py-12 sm:py-16 lg:py-24">
-      <Section className="px-4 sm:px-6 lg:px-12 lg:ml-10">
+      <Section className="px-4 sm:px-6 lg:px-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-10">
           {services.map((item, index) => (
             <div
@@ -43,17 +43,16 @@ const Component4 = () => {
                 flex-col
               "
             >
-              <div className="text-3xl sm:text-4xl mb-4 sm:mb-6">
-                {item.icon}
-              </div>
+              {/* Icon */}
+              <div className="text-3xl sm:text-4xl mb-4 sm:mb-6">{item.icon}</div>
 
+              {/* Title */}
               <h3 className="text-[#29C553] text-xl sm:text-2xl font-bold mb-3 sm:mb-4 leading-snug">
                 {item.title}
               </h3>
 
-              <p className="text-sm sm:text-base leading-6 sm:leading-7 text-white/95">
-                {item.desc}
-              </p>
+              {/* Description */}
+              <p className="text-sm sm:text-base leading-6 sm:leading-7 text-white/95">{item.desc}</p>
             </div>
           ))}
         </div>

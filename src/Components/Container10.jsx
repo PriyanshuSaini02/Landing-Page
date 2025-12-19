@@ -22,7 +22,7 @@ const features = [
 const Container10 = () => {
   return (
     <div className="w-full bg-white py-12 sm:py-16 lg:py-28">
-      <Section className="px-4 sm:px-6 lg:px-12 lg:ml-10">
+      <Section className="px-4 sm:px-6 lg:px-10">
         {/* HEADER */}
         <div className="text-center mb-10 sm:mb-12 lg:mb-16">
           <h2 className="text-[30px] sm:text-[34px] lg:text-[38px] font-bold text-[#134872] mb-2 sm:mb-3">
@@ -51,9 +51,7 @@ const Container10 = () => {
               "
             >
               {/* Icon */}
-              <div className="text-2xl sm:text-3xl mb-4 sm:mb-5">
-                {item.icon}
-              </div>
+              <div className="text-2xl sm:text-3xl mb-4 sm:mb-5">{item.icon}</div>
 
               {/* Title */}
               <h3 className="text-[#29C553] text-base sm:text-lg font-semibold mb-2 sm:mb-3">
@@ -61,9 +59,7 @@ const Container10 = () => {
               </h3>
 
               {/* Description */}
-              <p className="text-sm leading-5 sm:leading-6 text-white/90">
-                {item.desc}
-              </p>
+              <p className="text-sm leading-5 sm:leading-6 text-white/90">{item.desc}</p>
             </div>
           ))}
         </div>

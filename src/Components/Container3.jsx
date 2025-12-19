@@ -40,8 +40,10 @@ const Component3 = () => {
           </div>
         </div>
 
+        {/* CLUTCH */}
         <div className="w-full sm:w-65">
           <div className="flex items-center justify-center sm:justify-start gap-3">
+            {/* LEFT */}
             <div className="text-left">
               <p className="text-[10px] sm:text-[12px] text-[#666] tracking-widest">
                 REVIEWED ON
@@ -51,6 +53,7 @@ const Component3 = () => {
               </p>
             </div>
 
+            {/* RIGHT */}
             <div className="text-left">
               <div className="text-red-600 text-[16px] sm:text-[18px] tracking-widest leading-none">
                 ★★★★★

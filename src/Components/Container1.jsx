@@ -8,13 +8,14 @@ const Container1 = () => {
         relative
         w-full
         min-h-[calc(100vh-64px)]
+        bg-none md:bg-[url('b1.webp')]
         bg-cover
         bg-position-[75%_15%]
         overflow-hidden
-        bg-none md:bg-[url('b1.webp')]
       "
     >
-      <Section className="h-full flex items-start px-4 sm:px-6 lg:px-12 pt-20 sm:pt-32 lg:pt-40 lg:ml-10">
+      {/* CONTENT */}
+      <Section className="h-full flex items-start px-4 sm:px-6 lg:px-10 pt-20 sm:pt-32 lg:pt-40">
         <div className="max-w-full sm:max-w-170">
           <h1 className="text-[#134872] text-[28px] sm:text-[36px] lg:text-[50px] font-semibold leading-[1.15] mb-5 sm:mb-7 font-sans">
             Your Trusted Tech <br />
@@ -36,6 +37,7 @@ const Container1 = () => {
         </div>
       </Section>
 
+      {/* PHONE IMAGE */}
       <div
         className="
           absolute
