@@ -73,7 +73,7 @@ const Header = () => {
         </nav>
 
         {/* CTA BUTTON - Desktop */}
-        <button className="hidden lg:block h-10 px-4 xl:px-6 bg-[#7cb342] hover:bg-[#689f38] text-white text-[13px] xl:text-[14px] font-semibold rounded-sm whitespace-nowrap">
+        <button className="hidden lg:block h-10 px-4 xl:px-6 bg-[#7cb342] hover:bg-[#689f38] text-white text-[13px] xl:text-[14px] font-semibold whitespace-nowrap">
           Get In Touch
         </button>
       </Section>

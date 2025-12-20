@@ -156,4 +156,3 @@ Tailwind CSS is configured via the `@tailwindcss/vite` plugin in Vite config.
 - [React Documentation](https://react.dev/)
 - [Vite Documentation](https://vitejs.dev/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/)
-- [ESLint Documentation](https://eslint.org/)
